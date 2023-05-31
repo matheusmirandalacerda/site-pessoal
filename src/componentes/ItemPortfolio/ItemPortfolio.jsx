@@ -8,7 +8,7 @@ function ItemPortfolio (props) {
         <div className="item-portfolio">
             <a href={props.link} target="_blank">
             <img src={props.image} alt="Imagem Preview" />
-            <p>{props.title}</p>
+            <p>{props.titulo}</p>
             </a>
         </div>        
   );
